@@ -23,8 +23,8 @@ parameters:
     #linux_repo_refresh_db: True
 
     # infra service addresses
-    infra_config_address: 172.16.49.2
-    infra_config_deploy_address: 172.16.49.2
+    infra_config_address: 192.168.10.100
+    infra_config_deploy_address: 192.168.10.100
 
     openstack_gateway_node01_address: 10.167.4.224
     openstack_gateway_node02_address: 10.167.4.225
@@ -51,10 +51,10 @@ parameters:
     openstack_proxy_address: 10.167.4.80
     openstack_proxy_node01_address: 10.167.4.81
     openstack_proxy_node02_address: 10.167.4.82
-    openstack_control_address: 10.167.4.10
-    openstack_control_node01_address: 10.167.4.11
-    openstack_control_node02_address: 10.167.4.12
-    openstack_control_node03_address: 10.167.4.13
+    openstack_control_address: 172.16.10.254
+    openstack_control_node01_address: 172.16.10.101
+    openstack_control_node02_address: 172.16.10.102
+    openstack_control_node03_address: 172.16.10.103
     openstack_database_address: 10.167.4.50
     openstack_database_node01_address: 10.167.4.51
     openstack_database_node02_address: 10.167.4.52
@@ -79,10 +79,10 @@ parameters:
     # openstack_billing_address:
 
     # Stacklight Monitor
-    stacklight_monitor_address: 10.167.4.70
-    stacklight_monitor_node01_address: 10.167.4.71
-    stacklight_monitor_node02_address: 10.167.4.72
-    stacklight_monitor_node03_address: 10.167.4.73
+    stacklight_monitor_address: 172.16.10.253
+    stacklight_monitor_node01_address: 172.16.10.107
+    stacklight_monitor_node02_address: 172.16.10.108
+    stacklight_monitor_node03_address: 172.16.10.109
     stacklight_log_address: 10.167.4.60
     stacklight_log_node01_address: 10.167.4.61
     stacklight_log_node02_address: 10.167.4.62
