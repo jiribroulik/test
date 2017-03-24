@@ -97,10 +97,10 @@ parameters:
     nic:
       default:
         eth1:
-          bridge: br_mgm
+          bridge: eth0
           model: virtio
         eth0:
-          bridge: br_ctl
+          bridge: eth1
           model: virtio
   linux:
     network:
